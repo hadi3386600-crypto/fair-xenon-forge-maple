@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Vela Observatory",
+      "hasCanvas": true,
+      "bodyTextLen": 2687,
+      "bodyTextHash": "90738b1f5b0446f0867b7037b5e6f65f30b82fdbb27a339936ac40964b7dc29e",
+      "bodyTextPrefix": "VELA Programs Archive Visit Request a night ATACAMA · 24°37′ S N",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Vela Observatory",
+      "hasCanvas": true,
+      "bodyTextLen": 2664,
+      "bodyTextHash": "cec4e5bf5bd5e5578ba939b234e5848377bee5c23ff326db3abb7526c8765e6c",
+      "bodyTextPrefix": "VELA Request a night ATACAMA · 24°37′ S Night, held still. A pri",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
